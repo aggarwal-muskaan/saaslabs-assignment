@@ -1,0 +1,18 @@
+.projectsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.projectsTable th,
+.projectsTable td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.projectsTable th {
+  background-color: #0073e6;
+  color: #fff;
+}
