@@ -3,6 +3,7 @@
   border-collapse: collapse;
   margin-bottom: 20px;
   background-color: #fff;
+  /* min-height: 240px; */
 }
 
 .projectsTable th,
@@ -15,4 +16,11 @@
 .projectsTable th {
   background-color: #0073e6;
   color: #fff;
+}
+
+@media (min-width: 1024px) {
+  .projectsTable {
+    width: 50%;
+    margin: auto;
+  }
 }

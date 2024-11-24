@@ -32,8 +32,6 @@ function App() {
     indexOfLastProject
   );
 
-  console.log("setProjects", projects); //todo: remove
-
   return (
     <>
       <h1>Kickstarter Projects</h1>
